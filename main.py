@@ -1,0 +1,5 @@
+scene.set_background_color(11)
+game.splash("Guessing Game!", "Press A to start.")
+game.splash("I choose a number", "between 1 and 100.")
+game.splash("Can you guess it?")
+com_number = randint(1, 100)
